@@ -1,0 +1,129 @@
+/* basic styles for the document */
+html{
+  font-family: Tahoma, sans-serif;
+}
+
+.quote{
+  /* Shared properties per quote. */
+  display: block;
+  /* Center aligns in block. */
+  margin: auto;
+  width: 60%;
+  padding-top: 25vh;
+}
+.quoteSource{
+  /* Source caption. */
+  display: block;
+  font-size: .7em;
+  text-align: right;
+  padding-top: 20px;
+}
+
+/* Common text modifiers. */
+.bold{
+  font-weight: bold;
+}
+.underline{
+  text-decoration: underline;
+}
+.italics{
+  font-style: italic;
+}
+.centered{
+  text-align: center;
+}
+
+/*----------------------------------------------------------------*/
+/* Quote 1 - Kurt Vonnegut */
+#quote1{
+  font-size: 1em;
+  font-family: 'PT Mono', monospace;
+  display: block;
+  background-image: url(../images/stars1.jpg);
+  background-repeat: repeat;
+  padding-bottom: 50vh;
+  color: white;
+}
+.blurb{
+  margin: 35px 80px 35px 80px;
+}
+#welcome{
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 4em;
+  padding: 15px 0 15px 0;
+  text-shadow: 0 2px 25px white;
+}
+#hot{
+  color: orangered;
+}
+#cold{
+  color: royalblue;
+}
+#round{
+  font-family: 'Yatra One', cursive;
+}
+#wet{
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 1.3em;
+}
+#crowded{
+  font-family: 'Pompiere', cursive;
+  font-size: 1.4em;
+}
+#onThe{
+  padding: 35px 0 35px 0;
+  border: 4px inset white;
+  box-shadow: 0 0 25px 0px rgba(255,255,255,0.3);
+}
+#hundred{
+  font-size: 6em;
+  font-family: 'Reenie Beanie', monospace;
+  margin-top: 10px;
+}
+#kind{
+  font-size: 1.5em;
+}
+#Kurt{
+  border-bottom: 1px dashed white;
+}
+/*----------------------------------------------------------------*/
+/* Quote 2 - The Handmaid's Tale, 1985 */
+#quote2{
+  font-size: 2em;
+  font-family: 'Zeyada', cursive;
+  display: block;
+  background-image: url(../images/city.png);
+  background-size: cover;
+  height: 100vh;
+}
+#quote2 p{
+  border-left: 5px solid #666666;
+  padding-left: 15px;
+}
+#papers{
+  font-family: 'League Script', cursive;
+}
+#blank{
+  font-size: .8em;
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+  text-shadow: 2px 2px 1px black;
+}
+#freedom{
+  box-shadow: -2px 6px 5px 0px rgba(0,0,0,0.3);
+  padding: 4px 55px 0px 52px;
+  font-family: 'Coming Soon', cursive;
+  font-size: .7em;
+}
+#gaps{
+  font-family: 'Amatic SC', cursive;
+}
+#creditHandmaid{
+  border-left: 5px hidden !important;
+}
+#handmaid{
+  box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.4);
+  background-color: white;
+  padding: 3px 3px 0 3px;
+}
+/*----------------------------------------------------------------*/
